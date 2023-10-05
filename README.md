@@ -31,9 +31,6 @@ Here is a quick overview of how to run the visualization (These steps are simila
     # Build the project
     make -j
     
-    # Run the tests
-    ./build/test-app
-    
     # Run the project (./build/web-app <port> <web folder>)
     /build/bin/transit_service 8081 apps/transit_service/web/
     ```
